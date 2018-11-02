@@ -250,18 +250,7 @@ subninja obj/bytecode_builtins_list_generator.ninja
 potat0@v-ubuntu:~/v8$ sudo chmod 777 -R v8
 ```
 
-再次编译就稳稳的了
-
-编译完如下
-```
-
-```
-
-我们尝试使用其运行一个JS文件
-```
-
-```
-
+再次编译就稳稳的了，最后生成的是一个`d8`的可执行文件
 
 
 
