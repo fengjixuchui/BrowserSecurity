@@ -156,7 +156,7 @@ https://storage.googleapis.com/chromium-gn/1756964fe6b9f0a865accdf577ae46345847d
 https://storage.googleapis.com/v8-wasm-spec-tests/90f3b976c7e98ee0e9539975189959dfd78b3480
 ```
 
-这其中会有一个很神奇的操作，在下载``的时候，会莫名其妙卡住
+这其中会有一个很神奇的操作，在下载其中一个文件`binutils.tar.bz2`的时候，会莫名其妙卡住
 ```
 potat0@v-ubuntu:~/v8/v8$ gclient sync
 Syncing projects: 100% (22/22), done.                                               
@@ -239,7 +239,7 @@ potat0@v-ubuntu:~/v8/v8$ sudo tools/dev/v8gen.py x64.debug
 
 进行编译，错误真是一个接一个
 ```
-out.gn/x64.debug'
+potat0@v-ubuntu:~/v8/v8$ ninja -C out.gn/x64.debug'
 ninja: error: toolchain.ninja:47: loading 'obj/bytecode_builtins_list_generator.ninja': Permission denied
 subninja obj/bytecode_builtins_list_generator.ninja
                                                    ^ near here
@@ -251,46 +251,5 @@ potat0@v-ubuntu:~/v8$ sudo chmod 777 -R v8
 ```
 
 再次编译就稳稳的了，最后生成的是一个`d8`的可执行文件
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
