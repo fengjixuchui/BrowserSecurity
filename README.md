@@ -5,3 +5,4 @@
 - [CVE-2013-3893 IE8 UAF漏洞分析](CVE-2013-3893_IE8_UAF漏洞分析/CVE-2013-3893_IE8_UAF漏洞分析.md)
 - [Win10编译Chromium](Win10编译Chromium/Win10编译Chromium.md)
 - [Ubuntu 16.04 x64编译V8源码](Ubuntu_16.04_x64编译V8源码/Ubuntu_16.04_x64编译V8源码.md)
+- [Ubuntu 16.04 x64搭建V8调试环境](Ubuntu_16.04_x64搭建V8调试环境/Ubuntu_16.04_x64搭建V8调试环境.md)
